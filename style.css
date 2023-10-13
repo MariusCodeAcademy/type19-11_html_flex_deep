@@ -6,15 +6,23 @@ body {
 }
 
 .flex-container {
+  min-height: 800px;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
   background-color: paleturquoise;
   /* justify-content: space-between; */
+  margin-bottom: 50px;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  /* flex-direction: column; */
+}
+.item-4 {
+  /* align-self: stretch; */
 }
 
 .flex-item {
-  /* width: 100%; */
+  /* width: 50px; */
   flex-basis: 22%;
   flex-grow: 1;
   height: 100px;
@@ -36,3 +44,9 @@ body {
 /* item-aside uzima 170px */
 /* item-main uzima likusia vieta */
 /* item-aside nemazeja mazinant puslapi */
+.item-aside {
+  flex-basis: 170px;
+  /* width: 24%; */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
