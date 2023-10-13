@@ -1,0 +1,89 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 300px;
+}
+
+/* bendri stiliai */
+.btn {
+  color: #fab700;
+  background-color: #222;
+  padding: 1.5em 3em;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #fab700;
+  color: #222;
+}
+
+.container {
+  /* apribojam ploti pagal dizaina
+    centruojam su parastem
+  */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* border: 1px solid #000; */
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 0;
+}
+.under-section-title {
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+}
+
+/* hero ---------------------------- */
+.hero-section {
+  /* background: spalva paveikslelis "ar kartoti" pozicijaX pozicijaY */
+  background: url('/img/home-banner.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* su flext padeti inner-content i centra  */
+.inner-content {
+  color: white;
+  max-width: 410px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin-bottom: 0.2em;
+}
+
+/* features section ------------------------ */
+.features {
+  background-color: #fff;
+}
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* background-color: gray; */
+  /* flex-direction: column; */
+}
+.card {
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  padding: 40px;
+  flex-basis: 31%;
+  flex-grow: 1;
+}
